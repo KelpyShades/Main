@@ -1,0 +1,217 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+@media only screen and (min-width: 0px){
+body{
+  margin: 0;
+  padding: 0;
+  background-color: rgba(28, 28, 255, 0.5);
+  background-image: url(assets/images/back2.jpg);
+  background-blend-mode: overlay;
+  background-size: cover;
+  display: flex;
+}
+/* Profile Pic */
+.profile{
+  position: absolute;
+  left: 17vw;
+  top: 25vh;
+  height: 35%;
+  margin: auto;
+  border-radius: 50%;
+  outline: 30px solid #fff;
+}
+/* Name Text */
+.name{
+  top: 17vh;
+  position: absolute;
+  font-size: 16rem;
+  left: 45vw;
+  margin: auto;
+  font-family: 'Righteous', cursive;
+}
+.name span{
+  display: block;
+  color:#ffffff;
+  text-shadow: 5px 5px 10px black;
+}
+.n2{
+  margin-top: -50px;
+}
+/* Background Design */
+.backdes{
+  height: 100%;
+  width: 25vw;
+  position: absolute;
+  background-color: rgb(0, 0, 136);
+  background-image: url(assets/images/back.jpg);
+  background-blend-mode: overlay;
+  background-size: cover;
+}
+/* Background Designs */
+.red{
+  position: absolute;
+  height: 65%;
+  width: 30%;
+  background-color: rgb(255, 0, 0);
+  border-radius: 50%;
+  left: 39vw;
+  top: 12vh;
+  z-index: -1;
+}
+.orange{
+  position: absolute;
+  height: 65%;
+  width: 30%;
+  background-color: rgb(255, 65, 0);
+  border-radius: 50%;
+  left: 49vw;
+  top: 12vh;
+  z-index: -1;
+}
+.yellow{
+  position: absolute;
+  height: 65%;
+  width: 30%;
+  background-color: rgb(255, 150, 0);
+  border-radius: 50%;
+  left: 59%;
+  top: 12%;
+  z-index: -1;
+}
+.purple{
+  position: absolute;
+  height: 65%;
+  width: 30%;
+  background-color: rgb(85, 0, 255);
+  border-radius: 50%;
+  left: 69%;
+  top: 12%;
+  z-index: -1;
+}
+.bar{
+  position: absolute;
+  height: 60vh;
+  width: 0.5vw;
+  background-color: #fff;
+  left: 43%;
+  top: 17%;
+  z-index: -1;
+  border-radius: 5px 5px;
+}
+.links{
+  position: absolute;
+  top: 30%;
+  left: 3%;
+}
+.links a {
+  height: 35px;
+  width: 35px;
+  display: block;
+  margin-bottom: 15px;
+  animation-name: magic;
+  animation-duration: 6s;
+  -webkit-animation-name: magic;
+  -webkit-animation-duration: 6s;
+}
+.links a img{
+  height: 40px;
+  width: 40px;
+}
+@keyframes magic {
+  0%  {visibility: hidden;}
+  25%  {visibility: hidden;}
+  50%  {visibility: hidden;}
+  75%  {visibility: hidden;}
+  100% {visibility: visible;}
+}
+@-webkit-keyframes magic {
+  0%  {visibility: hidden;}
+  25%  {visibility: hidden;}
+  50%  {visibility: hidden;}
+  75%  {visibility: hidden;}
+  100% {visibility: visible;}
+}
+.magic{
+  position: absolute;
+  height: 21vh;
+  width: 0.3125vw;
+  background-color: #fff;
+  border-radius: 2px 2px;
+  top: 29vh;
+  left: 2vw;
+  animation-name: magicrod;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-name: magicrod;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-timing-function: ease-in-out;
+}
+@keyframes magicrod {
+  0%  {left: 2%;}
+  25%  {left: 2%;}
+  50%  {left: 2%;}
+  75%  {left: 6%;}
+  100% {left: 2%;}
+}
+.intro{
+  position: absolute;
+  top: 78vh;
+  left: 45vw;
+}
+.line1{
+  font-size: 4rem;
+  font-family:'Righteous', cursive;
+  color: #000000;
+}
+.line2{
+  font-weight: bold;
+  font-size: 3.5rem;
+  font-family: 'Teko', sans-serif;
+}
+.autotype{
+  color: #fff;
+}
+header{
+  margin: 0;
+  padding: 0;
+  margin-right: 48%;
+  background: transparent;
+}
+.logo{
+  position: absolute;
+  height: 3.3vh;
+  border: hidden;
+  left: 1.8vw;
+  top: 1.8vh;
+  border-radius: 20px;
+}
+ul{
+  list-style-type: none;
+}
+li {
+  float: right;
+  display: block;
+  margin-top: 10px;
+  font-size: 1.25rem;
+}
+li .home {
+  text-align: center;
+  color: rgb(0, 0, 141);
+  padding: 10px 10px;
+  text-decoration: underline 3px rgb(0, 0, 255);
+  font-family: 'Righteous', cursive;
+}
+li .about {
+  text-align: center;
+  color: #ffff;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-family: 'Righteous', cursive;
+}
+li a:hover{
+  color: #000000;
+  text-decoration: none;
+}
+}

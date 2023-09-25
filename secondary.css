@@ -1,0 +1,338 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 253, 0.5);
+  background-image: url(assets/images/back2.jpg);
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-y: scroll;
+}
+header {
+  margin: 0;
+  padding: 0;
+  margin-right: 48%;
+  background: transparent;
+}
+ul{
+  list-style-type: none;
+}
+li {
+  float: right;
+  display: block;
+  margin-top: 10px;
+  font-size: 1.25rem;
+}
+li .about {
+  text-align: center;
+  color: rgb(135, 135, 135);
+  padding: 10px 10px;
+  text-decoration: underline 3px rgb(0, 0, 255);
+  font-family: 'Righteous', cursive;
+}
+li .home {
+  text-align: center;
+  color: #ffff;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-family: 'Righteous', cursive;
+}
+li .cont {
+  text-align: center;
+  color: #fff;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-family: 'Righteous', cursive;
+}
+li a:hover{
+  color: #000000;
+  text-decoration: none;
+}
+.backdes{
+  position: absolute;
+  padding: 0;
+  height: 75%;
+  width: 100%;
+  background-color: rgb(0, 0, 141);
+  z-index: -1;
+  background-image: url(assets/images/back.jpg);
+  background-blend-mode: overlay;
+  background-size: cover;
+}
+.n1{
+  top: 12%;
+  position: absolute;
+  font-size: 15rem;
+  left: 15%;
+  margin: auto;
+  font-family: 'Righteous', cursive;
+  animation-name: arrange;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  -webkit-animation-name: arrange;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-timing-function: ease-out;
+}
+.n2{
+  top: 35%;
+  position: absolute;
+  font-size: 15rem;
+  left: 15%;
+  margin: auto;
+  font-family: 'Righteous', cursive;
+  animation-name: arrang;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  -webkit-animation-name: arrang;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-timing-function: ease-out;
+}
+.text span{
+  display: block;
+  color:#ffffff;
+  text-shadow: 5px 5px 10px black;
+}
+@keyframes arrange {
+  0% {top: 65%;}
+  100% {top: 12%;}
+}
+@-webkit-keyframes arrange {
+  0% {top: 65%;}
+  100% {top: 12%;}
+}
+@keyframes arrang {
+  0% {top: 65%;}
+  100% {top: 35%;}
+}
+@-webkit-keyframes arrang {
+  0% {top: 65%;}
+  100% {top: 35%;}
+}
+/* Background Designs */
+.red{
+  position: absolute;
+  height: 30%;
+  width: 15%;
+  background-color: rgb(255, 0, 0);
+  border-radius: 50%;
+  left: 38.5%;
+  top: 25%;
+  z-index: -1;
+  animation-name: rotate-red;
+  animation-duration: 0.5s;
+  animation-delay: 1s;
+  -webkit-animation-delay: 0.5s;
+  -webkit-animation-name: rotate-red;
+  -webkit-animation-duration: 2s;
+}
+.orange{
+  position: absolute;
+  height: 30%;
+  width: 15%;
+  background-color: rgb(255, 65, 0);
+  border-radius: 50%;
+  left: 43%;
+  top: 10%;
+  z-index: -1;
+  animation-name: rotate-orange;
+  animation-duration: 2s;
+  animation-direction: reverse;
+  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;
+  -webkit-animation-direction: reverse;
+  -webkit-animation-name: rotate-orange;
+  -webkit-animation-duration: 2s;
+}
+.yellow{
+  position: absolute;
+  height: 30%;
+  width: 15%;
+  background-color: rgb(255, 150, 0);
+  border-radius: 50%;
+  left: 50%;
+  top: 10%;
+  z-index: -1;
+  animation-name: rotate-yellow;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;
+  -webkit-animation-name: rotate-yellow;
+  -webkit-animation-duration: 2s;
+}
+.purple{
+  position: absolute;
+  height: 30%;
+  width: 15%;
+  background-color: rgb(85, 0, 255);
+  border-radius: 50%;
+  left: 54.5%;
+  top: 25%;
+  z-index: -1;
+  animation-name: rotate-purple;
+  animation-duration: 2s;
+  animation-direction: reverse;
+  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;
+  -webkit-animation-direction: reverse;
+  -webkit-animation-name: rotate-purple;
+  -webkit-animation-duration: 2s;
+}
+.red2{
+  position: absolute;
+  height: 30%;
+  width: 15%;
+  background-color: rgb(255, 0, 0);
+  border-radius: 50%;
+  left: 50%;
+  top: 40%;
+  z-index: -1;
+  animation-name: rotate-red2;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;
+  -webkit-animation-name: rotate-red2;
+  -webkit-animation-duration: 2s;
+}
+.yellow2{
+  position: absolute;
+  height: 30%;
+  width: 15%;
+  background-color: rgb(255, 150, 0);
+  border-radius: 50%;
+  left: 43%;
+  top: 40%;
+  z-index: -1;
+  animation-name: rotate-yellow2;
+  animation-duration: 2s;
+  animation-direction: reverse;
+  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;
+  -webkit-animation-direction: reverse;
+  -webkit-animation-name: rotate-yellow2;
+  -webkit-animation-duration: 2s;
+}
+/* Rotation Animation On The Colors */
+@keyframes rotate-red {
+  0%  {top: 25%; left: 38.5%;}
+  14.28%  {top: 10%; left: 43%;}
+  28.56%  {top: 10%; left: 50%;}
+  42.84%  {top: 25%; left: 54.5%;}
+  57.12%  {top: 40%; left: 50%;}
+  71.4%  {top: 40%; left: 43%;}
+  85.68%  {top: 25%; left: 45%;}
+  100%  {top: 25%; left: 38.5%;}
+}
+@-webkit-keyframes rotate-red {
+  0%  {top: 25%; left: 38.5%;}
+  14.28%  {top: 10%; left: 43%;}
+  28.56%  {top: 10%; left: 50%;}
+  42.84%  {top: 25%; left: 54.5%;}
+  57.12%  {top: 40%; left: 50%;}
+  71.4%  {top: 40%; left: 43%;}
+  85.68%  {top: 25%; left: 45%;}
+  100%  {top: 25%; left: 38.5%;}
+}
+@keyframes rotate-orange {
+  0%  {top: 10%; left: 43%;}
+  14.28%  {top: 25%; left: 45%;}
+  28.56%  {top: 10%; left: 50%;}
+  42.84%  {top: 25%; left: 54.5%;}
+  57.12%  {top: 40%; left: 50%;}
+  71.4%  {top: 40%; left: 43%;}
+  85.68%  {top: 25%; left: 38.5%;}
+  100%  {top: 10%; left: 43%;}
+}
+@-webkit-keyframes rotate-orange {
+  0%  {top: 10%; left: 43%;}
+  14.28%  {top: 25%; left: 45%;}
+  28.56%  {top: 10%; left: 50%;}
+  42.84%  {top: 25%; left: 54.5%;}
+  57.12%  {top: 40%; left: 50%;}
+  71.4%  {top: 40%; left: 43%;}
+  85.68%  {top: 25%; left: 38.5%;}
+  100%  {top: 10%; left: 43%;}
+}
+@keyframes rotate-yellow {
+  0%  {top: 10%; left: 50%;}
+  14.28%  {top: 25%; left: 54.5%;}
+  28.56%  {top: 40%; left: 50%;}
+  42.84%  {top: 40%; left: 43%;}
+  57.12%  {top: 25%; left: 38.5%;}
+  71.4%  {top: 10%; left: 43%;}
+  85.68%  {top: 25%; left: 45%;}
+  100%  {top: 10%; left: 50%;}
+}
+@-webkit-keyframes rotate-yellow {
+  0%  {top: 10%; left: 50%;}
+  14.48%  {top: 25%; left: 54.5%;}
+  28.56%  {top: 40%; left: 50%;}
+  42.84%  {top: 40%; left: 43%;}
+  57.12%  {top: 25%; left: 38.5%;}
+  71.4%  {top: 10%; left: 43%;}
+  85.68%  {top: 25%; left: 45%;}
+  100%  {top: 10%; left: 50%;}
+}
+@keyframes rotate-purple {
+  0%  {top: 25%; left: 54.5%;}
+  14.48%  {top: 25%; left: 45%;}
+  28.56%  {top: 40%; left: 50%;}
+  42.84%  {top: 40%; left: 43%;}
+  57.12%  {top: 25%; left: 38.5%;}
+  71.4%  {top: 10%; left: 43%;}
+  85.68%  {top: 10%; left: 50%;}
+  100%  {top: 25%; left: 54.5%;}
+}
+@-webkit-keyframes rotate-purple {
+  0%  {top: 25%; left: 54.5%;}
+  14.48%  {top: 25%; left: 45%;}
+  28.56%  {top: 40%; left: 50%;}
+  42.84%  {top: 40%; left: 43%;}
+  57.12%  {top: 25%; left: 38.5%;}
+  71.4%  {top: 10%; left: 43%;}
+  85.68%  {top: 10%; left: 50%;}
+  100%  {top: 25%; left: 54.5%;}
+}
+@keyframes rotate-red2 {
+  0%  {top: 40%; left: 50%;}
+  14.48%  {top: 40%; left: 43%;}
+  28.56%  {top: 25%; left: 38.5%;}
+  42.84%  {top: 10%; left: 43%;}
+  57.12%  {top: 10%; left: 50%;}
+  71.4%  {top: 25%; left: 54.5%;}
+  85.68%  {top: 25%; left: 45%;}
+  100%  {top: 40%; left: 50%;}
+}
+@-webkit-keyframes rotate-red2 {
+  0%  {top: 40%; left: 50%;}
+  14.48%  {top: 40%; left: 43%;}
+  28.56%  {top: 25%; left: 38.5%;}
+  42.84%  {top: 10%; left: 43%;}
+  57.12%  {top: 10%; left: 50%;}
+  71.4%  {top: 25%; left: 54.5%;}
+  85.68%  {top: 25%; left: 45%;}
+  100%  {top: 40%; left: 50%;}
+}
+@keyframes rotate-yellow2 {
+  0%  {top: 40%; left: 43%;}
+  14.48%  {top: 25%; left: 45%;}
+  28.56%  {top: 25%; left: 38.5%;}
+  42.84%  {top: 10%; left: 43%;}
+  57.12%  {top: 10%; left: 50%;}
+  71.4%  {top: 25%; left: 54.5%;}
+  85.68%  {top: 40%; left: 50%;}
+  100%  {top: 40%; left: 43%;}
+}
+@-webkit-keyframes rotate-yellow2 {
+  0%  {top: 40%; left: 43%;}
+  14.48%  {top: 25%; left: 45%;}
+  28.56%  {top: 25%; left: 38.5%;}
+  42.84%  {top: 10%; left: 43%;}
+  57.12%  {top: 10%; left: 50%;}
+  71.4%  {top: 25%; left: 54.5%;}
+  85.68%  {top: 40%; left: 50%;}
+  100%  {top: 40%; left: 43%;}
+}
